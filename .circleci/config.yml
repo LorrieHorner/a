@@ -1,12 +1,9 @@
-version: 2.1
-orbs:
-  node: circleci/node@4.7.0
-
+version: 2
 jobs:
   build:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -18,8 +15,8 @@ jobs:
         
   build1:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -31,8 +28,8 @@ jobs:
         
   build2:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -44,8 +41,8 @@ jobs:
         
   build3:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -57,8 +54,8 @@ jobs:
         
   build4:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -70,8 +67,8 @@ jobs:
         
   build5:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -83,8 +80,8 @@ jobs:
         
   build6:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -96,8 +93,8 @@ jobs:
         
   build7:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -109,8 +106,8 @@ jobs:
         
   build8:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -122,8 +119,8 @@ jobs:
         
   build9:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -135,8 +132,8 @@ jobs:
         
   build10:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -148,8 +145,8 @@ jobs:
         
   build11:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -161,8 +158,8 @@ jobs:
         
   build12:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -174,8 +171,8 @@ jobs:
         
   build13:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -187,8 +184,8 @@ jobs:
         
   build14:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -200,8 +197,8 @@ jobs:
         
   build15:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -213,8 +210,8 @@ jobs:
         
   build16:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -226,8 +223,8 @@ jobs:
         
   build17:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -239,8 +236,8 @@ jobs:
         
   build18:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -252,8 +249,8 @@ jobs:
         
   build19:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -265,8 +262,8 @@ jobs:
         
   build20:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -278,8 +275,8 @@ jobs:
         
   build21:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -291,8 +288,8 @@ jobs:
         
   build22:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -304,8 +301,8 @@ jobs:
         
   build23:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -317,8 +314,8 @@ jobs:
         
   build24:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -330,8 +327,8 @@ jobs:
         
   build25:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -343,8 +340,8 @@ jobs:
         
   build26:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -356,8 +353,8 @@ jobs:
         
   build27:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -369,8 +366,8 @@ jobs:
         
   build28:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -382,8 +379,8 @@ jobs:
         
   build29:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -395,8 +392,8 @@ jobs:
         
   build30:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -408,8 +405,8 @@ jobs:
         
   build31:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -421,8 +418,8 @@ jobs:
         
   build32:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -434,8 +431,8 @@ jobs:
         
   build33:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -447,8 +444,8 @@ jobs:
         
   build34:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -460,8 +457,8 @@ jobs:
         
   build35:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -473,8 +470,8 @@ jobs:
         
   build36:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -486,8 +483,8 @@ jobs:
         
   build37:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -499,8 +496,8 @@ jobs:
         
   build38:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -512,8 +509,8 @@ jobs:
         
   build39:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -525,8 +522,8 @@ jobs:
         
   build40:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -538,8 +535,8 @@ jobs:
         
   build41:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -551,8 +548,8 @@ jobs:
         
   build42:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -564,8 +561,8 @@ jobs:
         
   build43:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -577,8 +574,8 @@ jobs:
         
   build44:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -590,8 +587,8 @@ jobs:
         
   build45:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -603,8 +600,8 @@ jobs:
         
   build46:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -616,8 +613,8 @@ jobs:
         
   build47:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -629,8 +626,8 @@ jobs:
         
   build48:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -642,8 +639,8 @@ jobs:
         
   build49:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
@@ -655,8 +652,8 @@ jobs:
         
   build50:
     machine:
-      image: 'node:16-bullseye-slim'
-    
+      image: ubuntu-2004:202010-01
+    resource_class: medium
     parallelism: 4
     steps:
      - run:
