@@ -18,83 +18,102 @@ jobs:
   endvoc:
     docker:
       - image: ruby
+    parallelism: 4   
     steps:
       - checkout
   endvoc1:
     <<: *script
     docker:
       - image: ruby:2.7
+    parallelism: 4   
   endvoc2:
     <<: *script
     docker:
       - image: ruby:2.6
+    parallelism: 4   
   endvoc3:
     <<: *script
     docker:
       - image: ruby:2.5
+    parallelism: 4   
   endvoc4:
     <<: *script
     docker:
       - image: ruby:2.4
+    parallelism: 4   
   endvoc5:
     docker:
       - image: ruby
+    parallelism: 4    
     steps:
       - checkout
   endvoc6:
     <<: *script
     docker:
       - image: ruby:2.7
+    parallelism: 4   
   endvoc7:
     <<: *script
     docker:
       - image: ruby:2.6
+    parallelism: 4   
   endvoc8:
     <<: *script
     docker:
       - image: ruby:2.5
+    parallelism: 4   
   endvoc9:
     <<: *script
     docker:
       - image: ruby:2.4
+    parallelism: 4   
   endvoc10:
     docker:
       - image: ruby
+    parallelism: 4   
     steps:
       - checkout
   endvoc11:
     <<: *script
     docker:
       - image: ruby:2.7
+    parallelism: 4   
   endvoc12:
     <<: *script
     docker:
       - image: ruby:2.6
+    parallelism: 4  
   endvoc13:
     <<: *script
     docker:
       - image: ruby:2.5
+    parallelism: 4  
   endvoc14:
     <<: *script
     docker:
       - image: ruby:2.4
+    parallelism: 4   
   endvoc15:
     docker:
       - image: ruby
+    parallelism: 4  
     steps:
       - checkout
   endvoc16:
     <<: *script
     docker:
       - image: ruby:2.7
+    parallelism: 4   
   endvoc17:
     <<: *script
     docker:
       - image: ruby:2.6
+    parallelism: 4  
   endvoc18:
     <<: *script
     docker:
       - image: ruby:2.5
+    parallelism: 4
   endvoc19:
     <<: *script
     docker:
