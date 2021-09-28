@@ -99,6 +99,7 @@ jobs:
     <<: *script
     docker:
       - image: ruby:2.4    
+    parallelism: 4
 workflows:
   version: 2
   commit:
@@ -131,7 +132,7 @@ workflows:
           filters:
             branches:
               only:
-                
+                - master
          
   endvocrunjob:
     jobs:
